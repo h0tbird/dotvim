@@ -1,0 +1,1 @@
+../bundle/puppet/ftdetect/puppet.vim
