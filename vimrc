@@ -2,11 +2,13 @@
 call pathogen#runtime_append_all_bundles()
 call pathogen#helptags()
 
-" Enable ftplugin and indenting:
-filetype plugin indent on
-syntax enable
+" Enable filetype and plugins:
+filetype on
+filetype plugin on
+filetype indent on
 
 " Solarized colorscheme:
+syntax enable
 set background=light
 colorscheme solarized
 
@@ -16,5 +18,8 @@ set tabstop=4
 set shiftwidth=4
 
 " Use the same symbols as TextMate:
-set list
 set listchars=tab:▸\ ,eol:¬
+
+" Puppet files:
+autocmd FileType puppet set keywordprg=pi
+autocmd FileType puppet set shellcmdflag=-ci
