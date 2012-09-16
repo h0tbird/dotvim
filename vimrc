@@ -12,13 +12,16 @@ let mapleader = ","
 
 " Solarized colorscheme:
 syntax enable
-set background=light
-colorscheme solarized
+colorscheme hybrid
 
 " Converting tabs to spaces:
 set expandtab
 set tabstop=4
 set shiftwidth=4
+
+" Enable cursorline and cursorcolumn:
+set cursorline
+set cursorcolumn
 
 " Use the same symbols as TextMate:
 set listchars=tab:▸\ ,eol:¬
@@ -29,3 +32,6 @@ map <leader>d :execute 'NERDTreeToggle ' . getcwd()<CR>
 " Puppet files:
 autocmd FileType puppet set keywordprg=pi
 autocmd FileType puppet set shellcmdflag=-ci
+
+" Status bar always on:
+set laststatus=2

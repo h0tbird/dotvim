@@ -19,3 +19,6 @@
 [submodule "bundle/taglist"]
 	path = bundle/taglist
 	url = https://github.com/vim-scripts/taglist.vim.git
+[submodule "bundle/hybrid"]
+	path = bundle/hybrid
+	url = https://github.com/w0ng/vim-hybrid.git
