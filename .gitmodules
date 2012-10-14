@@ -22,3 +22,6 @@
 [submodule "bundle/hybrid"]
 	path = bundle/hybrid
 	url = https://github.com/w0ng/vim-hybrid.git
+[submodule "bundle/poweroline"]
+	path = bundle/poweroline
+	url = https://github.com/Lokaltog/vim-powerline.git
