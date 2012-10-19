@@ -67,8 +67,9 @@ map <leader>d :execute 'NERDTreeToggle ' . getcwd()<CR>
 autocmd FileType puppet set keywordprg=pi
 autocmd FileType puppet set shellcmdflag=-ci
 
-"-----------------------
-" Status bar always on:
-"-----------------------
+"------------------------------------
+" Powerline status bar is always on:
+"------------------------------------
 
 set laststatus=2
+let g:Powerline_symbols = 'fancy'
