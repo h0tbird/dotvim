@@ -39,8 +39,8 @@ set shiftwidth=4
 "-------------------------------------
 
 highlight ExtraWhitespace ctermbg=darkgreen guibg=lightgreen
-match ExtraWhitespace /\s\+$/
 match ExtraWhitespace /\t/
+match ExtraWhitespace /\s\+$/
 
 "-------------------
 " Highlight search:
