@@ -42,6 +42,12 @@ highlight ExtraWhitespace ctermbg=darkgreen guibg=lightgreen
 match ExtraWhitespace /\s\+$/
 match ExtraWhitespace /\t/
 
+"-------------------
+" Highlight search:
+"-------------------
+
+set hlsearch
+
 "-------------------------------------
 " Enable cursorline and cursorcolumn:
 "-------------------------------------
