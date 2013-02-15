@@ -7,6 +7,11 @@ Create symlinks:
     ln -s .vim/vimrc .vimrc
     ln -s .vim/gvimrc .gvimrc
 
-To add a new submodule:
+To add a new plugin submodule:
 
-    git submodule add https://github.com/Lokaltog/vim-powerline.git bundle/poweroline
+    git submodule add https://github.com/Lokaltog/vim-powerline.git bundle/powerline
+
+To remove a plugin submodule:
+
+    vim .gitmodules
+    git rm --cached bundle/powerline
