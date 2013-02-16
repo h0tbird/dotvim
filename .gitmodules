@@ -7,15 +7,6 @@
 [submodule "bundle/autocomplpop"]
 	path = bundle/autocomplpop
 	url = https://github.com/vim-scripts/AutoComplPop.git
-[submodule "bundle/solarized"]
-	path = bundle/solarized
-	url = https://github.com/altercation/vim-colors-solarized.git
-[submodule "bundle/taglist"]
-	path = bundle/taglist
-	url = https://github.com/vim-scripts/taglist.vim.git
 [submodule "bundle/hybrid"]
 	path = bundle/hybrid
 	url = https://github.com/w0ng/vim-hybrid.git
-[submodule "bundle/poweroline"]
-	path = bundle/poweroline
-	url = https://github.com/Lokaltog/vim-powerline.git
