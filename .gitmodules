@@ -19,6 +19,3 @@
 [submodule "bundle/poweroline"]
 	path = bundle/poweroline
 	url = https://github.com/Lokaltog/vim-powerline.git
-[submodule "bundle/fuzzyfinder"]
-	path = bundle/fuzzyfinder
-	url = https://github.com/vim-scripts/FuzzyFinder.git
