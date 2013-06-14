@@ -35,8 +35,8 @@ set tabstop=4                " How many columns a tab counts for.
 set shiftwidth=4             " How many columns text is indented.
 set number                   " Show line numbers.
 set hlsearch                 " Search highlighting.
-set cursorline               " Highlight current line.
-set cursorcolumn             " Highlight current column.
+set cursorline               " Highlight current line (performance killer).
+set cursorcolumn             " Highlight current column (performance killer).
 set listchars=tab:▸\ ,eol:¬  " Way whitespace characters are shown
 set laststatus=2             " Always show the status line.
 
