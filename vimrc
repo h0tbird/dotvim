@@ -53,9 +53,9 @@ match ExtraWhitespace /\s\+$/
 "-------------------
 
 nmap <leader>d :execute 'NERDTreeToggle ' . getcwd()<CR>
+nmap <leader>l :set cursorcolumn! cursorline!<CR>
 nmap <leader>n :set number!<CR>
 nmap <leader>s :set list!<CR>
-nmap <leader>f :FufFile<CR>
 
 "---------------
 " Puppet files:
