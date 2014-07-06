@@ -31,8 +31,8 @@ colorscheme hybrid
 "------------------------
 
 set expandtab                " Convert tabs to spaces.
-set tabstop=4                " How many columns a tab counts for.
-set shiftwidth=4             " How many columns text is indented.
+set tabstop=2                " How many columns a tab counts for.
+set shiftwidth=2             " How many columns text is indented.
 set number                   " Show line numbers.
 set hlsearch                 " Search highlighting.
 set cursorline               " Highlight current line (performance killer).
