@@ -40,6 +40,7 @@ set cursorcolumn             " Highlight current column (performance killer).
 set listchars=tab:▸\ ,eol:¬  " Way whitespace characters are shown
 set laststatus=2             " Always show the status line.
 set shell=bash               " Force bash shell even if using zsh.
+set backspace=2              " Make backspace work like most other apps.
 
 "-------------------------------------
 " Highlight tabs and trailing spaces:
