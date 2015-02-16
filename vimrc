@@ -2,7 +2,7 @@
 " Enable pathogen plugin:
 "-------------------------
 
-call pathogen#infect()
+execute pathogen#infect()
 
 "------------------------------
 " Enable filetype and plugins:
