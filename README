@@ -15,3 +15,12 @@ To remove a plugin submodule:
 
     vim .gitmodules
     git rm --cached bundle/powerline
+
+To update all submodules:
+
+    git submodule status
+    git submodule init
+    git submodule foreach git checkout master
+    git submodule foreach git pull
+    git commit -am "Update submodules"
+    git push
