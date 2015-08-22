@@ -72,15 +72,15 @@ autocmd FileType puppet set shellcmdflag=-ci
 
 let g:Powerline_symbols = 'fancy'
 
-"--------
-" LaTEx:
-"--------
+"-------
+" LaTEx
+"-------
 
 let g:tex_flavor = "latex"
 
-"----------------
-" Tagbar GoTags:
-"----------------
+"---------------
+" Tagbar GoTags
+"---------------
 
 let g:tagbar_type_go = {
     \ 'ctagstype' : 'go',
@@ -109,3 +109,9 @@ let g:tagbar_type_go = {
     \ 'ctagsbin'  : 'gotags',
     \ 'ctagsargs' : '-sort -silent'
 \ }
+
+"---------
+" Airline
+"---------
+
+let g:airline_powerline_fonts = 1
