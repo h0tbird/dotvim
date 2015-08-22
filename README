@@ -13,8 +13,8 @@ To add a new plugin submodule:
 
 To remove a plugin submodule:
 
-    vim .gitmodules
     git rm --cached bundle/powerline
+    vim .gitmodules
 
 To update all submodules:
 

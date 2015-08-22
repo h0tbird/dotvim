@@ -66,12 +66,6 @@ nmap <leader>s :set list!<CR>
 autocmd FileType puppet set keywordprg=pi
 autocmd FileType puppet set shellcmdflag=-ci
 
-"------------------------------------
-" Powerline status bar is always on:
-"------------------------------------
-
-let g:Powerline_symbols = 'fancy'
-
 "-------
 " LaTEx
 "-------
