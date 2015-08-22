@@ -63,22 +63,15 @@ nmap <leader>t :TagbarToggle<CR>
 nnoremap <Tab> :bnext!<CR>
 nnoremap <S-Tab> :bprevious!<CR>
 
-"---------------
-" Puppet files:
-"---------------
-
-autocmd FileType puppet set keywordprg=pi
-autocmd FileType puppet set shellcmdflag=-ci
-
 "-------
 " LaTEx
 "-------
 
 let g:tex_flavor = "latex"
 
-"---------------
-" Tagbar GoTags
-"---------------
+"---------------------------
+" Tagbar Go and Puppet tags
+"---------------------------
 
 let g:tagbar_type_go = {
     \ 'ctagstype' : 'go',
@@ -107,6 +100,18 @@ let g:tagbar_type_go = {
     \ 'ctagsbin'  : 'gotags',
     \ 'ctagsargs' : '-sort -silent'
 \ }
+
+let g:tagbar_type_puppet = {
+  \ 'ctagstype': 'puppet',
+  \ 'kinds': [
+    \'c:class',
+    \'s:site',
+    \'n:node',
+    \'d:definition',
+    \'r:resource',
+    \'f:default'
+  \]
+\}
 
 "---------
 " Airline
