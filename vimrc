@@ -58,6 +58,10 @@ nmap <leader>d :execute 'NERDTreeToggle ' . getcwd()<CR>
 nmap <leader>l :set cursorcolumn! cursorline!<CR>
 nmap <leader>n :set number!<CR>
 nmap <leader>s :set list!<CR>
+nmap <leader>t :TagbarToggle<CR>
+
+nnoremap <Tab> :bnext!<CR>
+nnoremap <S-Tab> :bprevious!<CR>
 
 "---------------
 " Puppet files:
@@ -109,3 +113,5 @@ let g:tagbar_type_go = {
 "---------
 
 let g:airline_powerline_fonts = 1
+let g:airline#extensions#tabline#enabled = 1
+let g:airline_theme='hybridline'
