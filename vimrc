@@ -64,12 +64,6 @@ nmap <leader>t :TagbarToggle<CR>
 nnoremap <Tab> :bnext!<CR>
 nnoremap <S-Tab> :bprevious!<CR>
 
-"-------
-" LaTEx
-"-------
-
-let g:tex_flavor = "latex"
-
 "---------------------------
 " Tagbar Go and Puppet tags
 "---------------------------
@@ -121,3 +115,9 @@ let g:tagbar_type_puppet = {
 let g:airline_powerline_fonts = 1
 let g:airline#extensions#tabline#enabled = 1
 let g:airline_theme='hybridline'
+
+"-----------
+" Syntastic
+"-----------
+
+let g:syntastic_go_checkers = ['golint', 'govet', 'errcheck']
