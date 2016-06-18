@@ -120,4 +120,5 @@ let g:airline_theme='hybridline'
 " Syntastic
 "-----------
 
-let g:syntastic_go_checkers = ['golint', 'govet', 'errcheck']
+let g:syntastic_aggregate_errors = 1
+let g:syntastic_go_checkers = ['go', 'golint', 'govet', 'errcheck']
